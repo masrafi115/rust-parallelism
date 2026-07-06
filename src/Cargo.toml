@@ -1,0 +1,27 @@
+[package]
+name = "rust_parallelism_demo"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "01_threads_basic"
+path = "src/bin/01_threads_basic.rs"
+
+[[bin]]
+name = "02_shared_state"
+path = "src/bin/02_shared_state.rs"
+
+[[bin]]
+name = "03_channels"
+path = "src/bin/03_channels.rs"
+
+[[bin]]
+name = "04_rayon_data_parallel"
+path = "src/bin/04_rayon_data_parallel.rs"
+
+[[bin]]
+name = "05_scoped_threads"
+path = "src/bin/05_scoped_threads.rs"
+
+[dependencies]
+rayon = "1.10"

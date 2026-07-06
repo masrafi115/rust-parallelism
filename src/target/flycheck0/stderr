@@ -1,0 +1,4 @@
+error: package `rayon-core v1.13.0` cannot be built because it requires rustc 1.80 or newer, while the currently active rustc version is 1.75.0
+Either upgrade to rustc 1.80 or newer, or use
+cargo update rayon-core@1.13.0 --precise ver
+where `ver` is the latest version of `rayon-core` supporting rustc 1.75.0
